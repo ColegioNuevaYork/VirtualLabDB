@@ -11,7 +11,11 @@
   <h1 id="prueba">Productos Disponibles para </h1>
   <ul>
     {% for pr in products %}
-    <li> <strong>Nombre:</strong> {{pr.name}} / <strong>Marca:</strong> {{pr.brand}} / <strong>Imagen: </strong> <img src="{{pr.image.url}}" alt=""></li>
+    <li>
+      <a href="{% url 'product_detail' pr.pk %}">
+        <strong>Nombre:</strong> {{pr.name}} / <strong>Marca:</strong> {{pr.brand}} / <strong>Imagen: </strong> <img src="{{pr.image.url}}" alt="">
+      </a>
+    </li>
     {% endfor %}
   </ul>
 
