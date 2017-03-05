@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
 class Product(models.Model):
     name = models.CharField(blank=True, max_length=255)
+    decription = models.CharField(blank=True, max_length=25)
     category = models.CharField(blank=True, max_length=255)
     uncertainty = models.DecimalField(max_digits=100, decimal_places=2)
     brand = models.CharField(blank=True, max_length=255)
