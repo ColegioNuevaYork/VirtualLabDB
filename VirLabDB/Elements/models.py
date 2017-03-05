@@ -8,3 +8,6 @@ class Product(models.Model):
     brand = models.CharField(blank=True, max_length=255)
     quantity = models.DecimalField(max_digits=100, decimal_places=2)
     Available = models.BooleanField(default=True)
+
+    def __str__(self):
+        return self.name
