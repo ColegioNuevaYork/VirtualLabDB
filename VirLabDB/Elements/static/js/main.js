@@ -1,1 +1,1 @@
-alert("BIenvenido a la plataforma virtual del laboratorio\ndel Colegio Nueva York");
+// alert("BIenvenido a la plataforma virtual del laboratorio\ndel Colegio Nueva York");
