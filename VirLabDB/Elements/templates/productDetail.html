@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
+      {% load staticfiles %}
     <meta charset="utf-8">
-    <title>{{product.name}}</title>
+    <title> {{product.name }}</title>
+    <link rel="stylesheet" href="{% static 'css/productDetail.css' %}">
   </head>
   <body>
-
+    <h1> {{product.name}} </h1>
+    <h2> {{product.description}}</h2>
+    <p>
+      {{product.category}}
+      {{product.quantitty}}
+    </p>
+    <img src="{{ product.image.url}}" alt="">
   </body>
 </html>
