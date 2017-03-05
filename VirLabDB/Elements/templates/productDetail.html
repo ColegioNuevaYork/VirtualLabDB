@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title> {{product.name }}</title>
     <link rel="stylesheet" href="{% static 'css/productDetail.css' %}">
+    <script src="{% static 'js/productDetail.js' %}" charset="utf-8"></script>
   </head>
   <body>
     <h1> {{product.name}} </h1>
@@ -14,5 +15,7 @@
       {{product.quantitty}}
     </p>
     <img src="{{ product.image.url}}" alt="">
+    <button type="button" name="Back"> <a href="/">Volver</a> </button>
+    <button type="button" name="Back" > <a href="/" id="res">Reservar</a> </button>
   </body>
 </html>
