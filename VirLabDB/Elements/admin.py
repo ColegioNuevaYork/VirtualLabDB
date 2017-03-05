@@ -7,5 +7,5 @@ from django.utils.translation import ugettext_lazy
 # admin.site.register(models.Product)
 @admin.register(models.Product)
 class AdminProduct(admin.ModelAdmin):
-    list_display = ('id', 'name', 'category', 'brand', 'uncertainty','quantity', 'Available')
+    list_display = ('id', 'name', 'description', 'category', 'brand', 'uncertainty','Available')
     list_filter = ('category',)
