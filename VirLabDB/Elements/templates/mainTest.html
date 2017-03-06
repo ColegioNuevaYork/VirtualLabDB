@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% load staticfiles%}
+  <meta charset="utf-8">
+  <title>Home Page - </title>
+  <link rel="stylesheet" href="{% static 'css/mainTestStyle.css' %}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="{% static 'js/mainTestScript.js'%}" charset="utf-8"></script>
+</head>
+<body>
+  <header id ="menu">
+    <h1 id ="mainTitle">VirtualLabDB</h1>
+  </header>
+  <section id = "mainPhoto"></section>
+  <section id = "mainContainer">
+    <section id = "firstContainer">
+      <h2 id="texto">Lista de materiales</h2>
+    </section>
+    <section id = "bodyList">
+      <ul>
+        {% for pr in products%}
+        <li class="list">
+          <a class = "links" href="{% url 'product_detail' pr.pk %}">
+            <h1 class = "listText" id = "quantity">{{pr.quantity}}</h1>
+            <h2 class = "listText" id = "name">{{pr.name}}</h2>
+            <p class = "listText" id = "description">{{pr.description}}</p>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </section>
+  <section id = "footer"></section>
+</body>
+</html>

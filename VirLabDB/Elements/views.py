@@ -6,7 +6,7 @@ from .models import Product
 
 def hello_world(request):
     product = Product.objects.order_by('id')
-    template = loader.get_template('test.html')
+    template = loader.get_template('mainTest.html')
     context = {
         'products': product
     }
