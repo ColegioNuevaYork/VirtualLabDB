@@ -27,6 +27,9 @@ function initSetup(){
           "width": "400px",
           "height": "75px",
         });
+        $("#scrollText").css({
+          "color": "transparent";
+        });
         flag = true;
       }
     }else{
@@ -36,7 +39,10 @@ function initSetup(){
           "width": "450px",
           "height": "100px",
         });
-    
+        $(""#scrollText").css({
+          "color": "white";
+        });
+
         flag = false;
       }
     }

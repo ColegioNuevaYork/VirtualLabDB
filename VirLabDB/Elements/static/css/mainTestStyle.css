@@ -60,7 +60,7 @@ h1#quantity{
 }
 
 h2#name{
-  font-size: 2.5em;
+  font-size:1.2em;
   display: inline-block;
   margin-top: -20px;
   margin-bottom: -70px;
@@ -82,7 +82,7 @@ li#rightLogo{
 }
 
 ul#dinList{
-  margin-top: -120px;
+  margin-top: -230px;
 }
 
 section#search{
@@ -94,8 +94,49 @@ section#search{
   z-index: 1;
   float: right;
   position: static;;
+}
+
+section#category{
+  height: 100px;
+  width: 200px;
+  background-color: rgb(180, 31, 31);
+  display: inline-block;
+  margin-left:100px;
+  margin-right: 200px;
+  margin-top: -100px;
+  z-index: 1;
+  float: right;
+  position: static;;
+}
 
 
+section#request {
+  height: 100px;
+  width: 200px;
+  background-color: rgb(212, 72, 72);
+  display: inline-block;
+  margin-left:849px;
+  z-index: 1;
+  float: right;
+  position: static;;
+}
+
+section#scrollText{
+  width: auto;
+  height: auto;
+  color: white;
+  font-weight: 10;
+  font-family: Helvetica;
+  background-color: transparent;
+  text-align: center;
+  z-index: 3;
+  margin-top: -72px;
+  padding-bottom: 25px;
+  position: static;
+}
+
+h2#scrollSign{
+  -webkit-transform: rotate(270deg);
 }
 
 p#description{
@@ -140,7 +181,8 @@ ul li{
   margin: 10px;
   padding: 2px;
   font-family: Montserrat;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  margin-right: 200px;
 }
 
 img#title{
@@ -149,7 +191,7 @@ img#title{
   float: left;
   margin-right: 30px;
   margin-top: 300px;
-  -webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
+  -webkit-transition: width .4s, height .4s, margin-right .4s, margin-top .4s;
 }
 
 nav{
@@ -210,6 +252,8 @@ section#mainPhoto{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
+
 }
 
 section#bodyList{
