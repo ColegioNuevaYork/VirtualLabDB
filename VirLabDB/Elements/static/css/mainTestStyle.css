@@ -1,0 +1,270 @@
+*{
+  font-family: Helvetica;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color:rgb(199, 199, 199);
+}
+
+li{
+  display: block;
+}
+
+a#agregarElementos{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  position: relative;
+  text-align: center;
+  font-size: 1.3em;
+  font-style: italic;
+  float: right;
+  margin-top: -70px;
+  margin-right: 0px;
+  background-color: rgb(215, 58, 58);
+  padding: 20px;
+  height: 100%;
+  margin-bottom: -70px;
+
+}
+
+img#Logo{
+  width: 53px;
+
+  position: center;
+  display: inline-block;
+  float: left;
+  padding: 7px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: -100px;
+}
+
+h1#quantity{
+  font-size: 2em;
+  border-radius: 20px;
+  background-color: rgb(224, 79, 79);
+  padding: 20px;
+  color: rgb(250, 250, 250);
+  width: 50px;
+  float: left;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.links{
+  text-decoration: none;
+  color: black;
+}
+
+h2#name{
+  font-size:1.2em;
+  display: inline-block;
+  margin-top: -20px;
+  margin-bottom: -70px;
+
+}
+
+li#leftLogo{
+  margin-top: -17px;
+  display: inline-block;
+  margin-left: -400px;
+  float: left;
+}
+
+li#rightLogo{
+  margin-top: -15px;
+  float: right;
+  display: inline-block;
+  margin-right: -285px;
+}
+
+ul#dinList{
+  margin-top: -230px;
+}
+
+section#search{
+  height: 100px;
+  width: 200px;
+  background-color: rgb(215, 58, 58);
+  display: inline-block;
+  margin-left:849px;
+  z-index: 1;
+  float: right;
+  position: static;;
+}
+
+section#category{
+  height: 100px;
+  width: 200px;
+  background-color: rgb(180, 31, 31);
+  display: inline-block;
+  margin-left:100px;
+  margin-right: 200px;
+  margin-top: -100px;
+  z-index: 1;
+  float: right;
+  position: static;;
+}
+
+
+section#request {
+  height: 100px;
+  width: 200px;
+  background-color: rgb(212, 72, 72);
+  display: inline-block;
+  margin-left:849px;
+  z-index: 1;
+  float: right;
+  position: static;;
+}
+
+section#scrollText{
+  width: auto;
+  height: auto;
+  color: white;
+  font-weight: 10;
+  font-family: Helvetica;
+  background-color: transparent;
+  text-align: center;
+  z-index: 3;
+  margin-top: -72px;
+  padding-bottom: 25px;
+  position: static;
+}
+
+h2#scrollSign{
+  -webkit-transform: rotate(270deg);
+}
+
+p#description{
+  display: block;
+  padding-left: 20px;
+}
+
+.listText{
+  padding: 5px;
+}
+
+.list{
+  padding: 50px;
+  padding-bottom: -20px;
+  margin-bottom: -50px;
+  padding-left: 75px;
+
+}
+
+header#menu{
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(249, 249, 249);
+  font-family: BebasNeue;
+
+  display: inline;
+  box-shadow: 3px 0px 15px black;
+
+}
+
+img#logo{
+  width: 20px;
+  display: inline-block;
+  margin-right: 200px;
+  padding-right: 200px;
+  float: left;
+}
+
+ul li{
+  float: left;
+  margin: 10px;
+  padding: 2px;
+  font-family: Montserrat;
+  font-size: 1.2em;
+  margin-right: 200px;
+}
+
+img#title{
+  width: 450px;
+  height: 100px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 300px;
+  -webkit-transition: width .4s, height .4s, margin-right .4s, margin-top .4s;
+}
+
+nav{
+  display: table;
+  margin: auto;
+  margin-top: 15px;
+  background-color: transparent;
+  position: static;;
+  z-index: 200px;
+
+  -webkit-transition: margin-left .5s;
+}
+
+ul{
+  display: block;
+  float: left;
+  list-style: none;
+}
+
+h1#mainTitle{
+  position: center;
+  text-align: center;
+  margin: 15px;
+  font-family: Montserrat;
+  font-weight: 200;
+  margin-top: 270px;
+  background-color: inherit;
+  width: 500px;
+}
+
+section#firstContainer{
+  width: 100%;
+  height: 100px;
+  color: white;
+  text-align: left;
+  background-color: rgb(47, 46, 47);
+
+}
+
+section#mainContainer{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+h2#texto{
+  padding: 20px;
+  padding-top: 22px;
+  font-size: 2.7em;
+  font-family: sans-serif;
+}
+
+section#mainPhoto{
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 700px;
+  background-image: url("../images/Bird.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
+
+}
+
+section#bodyList{
+
+  width: 100%;
+  height: 2200px;
+  background-color: white;
+}
+
+section#footer{
+  width: 100%;
+  height: 200px;
+  background-color: #60646D;
+}
