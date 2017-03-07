@@ -5,11 +5,11 @@
 }
 
 body{
-    background-color:rgb(199, 199, 199);
+  background-color:rgb(199, 199, 199);
 }
 
 li{
-display: block;
+  display: block;
 }
 
 h1#quantity{
@@ -30,17 +30,17 @@ h1#quantity{
 }
 
 h2#name{
-font-size: 3em;
-display: inline-block;
-margin-top: -20px;
-margin-bottom: -70px;
+  font-size: 3em;
+  display: inline-block;
+  margin-top: -20px;
+  margin-bottom: -70px;
 
 
 }
 
 p#description{
-display: block;
-padding-left: 20px;
+  display: block;
+  padding-left: 20px;
 }
 
 .listText{
@@ -96,8 +96,8 @@ h2#texto{
 }
 
 section#mainPhoto{
-  position: relative;;
-  z-index: -2;
+  position: relative;
+  z-index: -1;
   width: 100%;
   height: 700px;
   background-image: url("../images/Bird.jpg");
